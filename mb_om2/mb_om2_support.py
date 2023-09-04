@@ -111,7 +111,6 @@ def optionmenu_callback(*args):
     global returnval
     which = returnval.get()
     print(f"OptionMenu returned {which}")
-    _w1.omReturnValue.set(which)
 
 
 def on_btnExit(*args):

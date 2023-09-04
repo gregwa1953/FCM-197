@@ -47,6 +47,7 @@ def startup():
 def menubutton_callback(*args):
     global carTypes, selection
     which = selection.get()
+    print(f"Menubutton returned {carTypes[which]}")
     _w1.mbReturnValue.set(carTypes[which])
 
 
